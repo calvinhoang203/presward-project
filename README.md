@@ -23,4 +23,8 @@ Building dashboards usually takes a lot of setup, but with Preswald you can go f
 * **Data quirks**: Missing values and date formats needed a quick fix before charts made sense.
 * **Preview layout**: Juggling tables and plots took a couple of tweaks to keep everything visible.
 * **Config keys**: The name you give your dataset in `preswald.toml` has to match exactly in your code.
+## Next Steps
+
+* Add controls (like date pickers or sliders).
+* Compare data from different countries.
 
