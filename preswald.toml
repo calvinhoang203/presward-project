@@ -1,0 +1,21 @@
+[project]
+title = "COVID-19 Data Explorer"
+version = "0.1.0"
+port = 8501
+slug = "covid-data-explorer"
+entrypoint = "my_preswald_app.py"
+
+[branding]
+name = "COVID-19 Data Explorer"
+logo = "assets/covid-logo.png"
+
+favicon = "assets/covid-favicon.ico"
+primaryColor = "#1F77B4"
+
+[data.owid_covid_data]
+type = "csv"
+path = "data/owid-covid-data.csv"
+
+[logging]
+level  = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
